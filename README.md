@@ -15,14 +15,18 @@ A basic Electron application needs just these files:
 
 ## To Use
 ```
-git clone 
+    git clone https://github.com/dhilipanraja-joseph/React-Electron-App.git
 ```
 ```
-npm install
+    cd React-Electron-App
+```
+
+```
+    npm install
 ```
 # Run the app
 ```
-npm start
+    npm start
 ```
 
 ## License
