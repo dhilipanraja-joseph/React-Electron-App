@@ -8,7 +8,7 @@ module.exports= {
         filename: 'bundle.js'
     },
     module: {
-        rule: [
+        rules: [
             {
                 test: /\.jsx?$/,
                 include: path.join(__dirname, 'src'),
