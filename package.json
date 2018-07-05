@@ -1,0 +1,36 @@
+{
+  "name": "React Electron App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run webpack & electron .",
+    "electron": "electron .",
+    "webpack": "webpack --config ./webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhilipanraja-joseph/React-Electron-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/dhilipanraja-joseph/React-Electron-App/issues"
+      },
+  "homepage": "https://github.com/dhilipanraja-joseph/React-Electron-App#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "electron": "^2.0.0",
+    "webpack": "^4.15.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
